@@ -1,0 +1,11 @@
+name: '@nino/actions'
+description: Utility GitHub actions through-out Nino's repositories
+author: Nino Team
+runs:
+  using: node12
+  main: ./build/action.js
+
+inputs:
+  command:
+    description: Returns the command name to execute
+    required: true
